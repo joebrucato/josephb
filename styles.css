@@ -26,25 +26,19 @@ h1, h2, h3 {
 /* Navbar */
 .nav-link {
     color: #f5f5f5;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .nav-link:hover {
-    color: #cc0000;
+    color: #f5f5f5;
+    box-shadow: 0 0 5px 2px #fff;
+    border: 1px solid #fff;
+    padding: 2px 6px;
 }
 
+/* Hover Link */
 .hover-link {
     position: relative;
-}
-
-.hover-link:hover::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -5px;
-    height: 2px;
-    background-color: #cc0000;
 }
 
 /* Buttons */
@@ -70,4 +64,9 @@ h1, h2, h3 {
 .card:hover {
     transform: scale(1.02);
     transition: transform 0.3s ease;
+}
+
+/* Headings Outline */
+.outline-heading {
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.6);
 }
