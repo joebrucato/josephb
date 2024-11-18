@@ -19,12 +19,32 @@ h1, h2, h3 {
     color: #990000;
 }
 
-.text-cream {
-    color: #f5f5dc;
-}
-
 .bg-crimson {
     background-color: #990000;
+}
+
+/* Navbar */
+.nav-link {
+    color: #f5f5f5;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #cc0000;
+}
+
+.hover-link {
+    position: relative;
+}
+
+.hover-link:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    height: 2px;
+    background-color: #cc0000;
 }
 
 /* Buttons */
@@ -38,13 +58,13 @@ h1, h2, h3 {
 
 .btn-crimson:hover {
     background-color: #cc0000;
-    color: #fff;
 }
 
 /* Card */
 .card {
     border-radius: 15px;
     overflow: hidden;
+    border: 1px solid #333;
 }
 
 .card:hover {
