@@ -21,13 +21,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#about" data-bs-toggle="tab">About Me</a>
+                            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#about">About Me</button>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#portfolio" data-bs-toggle="tab">Portfolio</a>
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#portfolio">Portfolio</button>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact" data-bs-toggle="tab">Contact</a>
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#contact">Contact</button>
                         </li>
                     </ul>
                 </div>
@@ -37,45 +37,18 @@
 
     <!-- Tab Content -->
     <div class="tab-content container mt-4">
-        <!-- About Me Tab -->
         <div class="tab-pane fade show active" id="about">
-            <div class="hero text-center">
-                <img src="images/LinkedInPFP.jpg" alt="Professional Image" class="img-fluid rounded-circle mb-3" style="max-width: 150px;">
-                <h2>Joseph Brucato</h2>
-                <p>Aspiring Data Analyst</p>
-            </div>
-            <section>
-                <h2>About</h2>
-                <p>I am a college student passionate about data analytics and technology. My goal is to work in the healthcare industry, leveraging data to drive impactful decisions.</p>
-                <p><strong>Skills:</strong> Python, Excel, SQL, HTML, CSS, Access, Jupyter Notebook, VSCode, Scikit-Learn, Matplotlib</p>
-            </section>
+            <h2>About Me</h2>
+            <img src="images/LinkedInPFP.jpg" alt="Professional Image" class="img-fluid rounded-circle mb-3" style="max-width: 150px;">
+            <p>I am a college student passionate about data analytics and technology.</p>
         </div>
-
-        <!-- Portfolio Tab -->
         <div class="tab-pane fade" id="portfolio">
-            <section>
-                <h2>Portfolio</h2>
-                <div class="project mb-4">
-                    <h3>Project 1: Indiana University Professor Finder</h3>
-                    <p>Developed a program to optimize class scheduling for fraternity members by automatically identifying the most generous or experienced professors based on course inputs. Utilized pandas for data processing and Excel for data cleaning.</p>
-                    <a href="https://github.com/joebryucato/project2" target="_blank" class="btn btn-primary">View on GitHub</a>
-                </div>
-                <div class="project">
-                    <h3>Project 2: Ski Lift Wait Time Predictor</h3>
-                    <p>Built a regression model using scikit-learn to predict seasonal snowfall at Snowbird Ski Resort, achieving a mean absolute error of 17.74 inches. Leveraged pandas for data manipulation and matplotlib for visualization.</p>
-                    <a href="https://github.com/joebrucato/project1" target="_blank" class="btn btn-primary">View on GitHub</a>
-                </div>
-            </section>
+            <h2>Portfolio</h2>
+            <p>Here are my projects.</p>
         </div>
-
-        <!-- Contact Tab -->
         <div class="tab-pane fade" id="contact">
-            <section>
-                <h2>Contact Me</h2>
-                <p><strong>Email:</strong> <a href="mailto:jjbrucat@iu.edu">jjbrucat@iu.edu</a></p>
-                <p><strong>GitHub:</strong> <a href="https://github.com/joebrucato" target="_blank">github.com/joebrucato</a></p>
-                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/joebrucato" target="_blank">linkedin.com/in/joebrucato</a></p>
-            </section>
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:jjbrucat@iu.edu">jjbrucat@iu.edu</a></p>
         </div>
     </div>
 
