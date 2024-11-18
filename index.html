@@ -9,26 +9,26 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="bg-dark text-light">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-crimson">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-crimson shadow">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">Joseph Brucato</a>
+            <a class="navbar-brand fw-bold text-cream" href="#">Joseph Brucato</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#about">About</a>
+                        <a class="nav-link active text-cream" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link text-cream" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link text-cream" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -36,42 +36,42 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="hero" class="text-center text-light py-5 bg-cream">
+    <section id="hero" class="text-center py-5 bg-dark-secondary">
         <div class="container">
-            <img src="images/LinkedInPFP.jpg" alt="Personal Image" class="rounded-circle mb-4" style="max-width: 150px;">
-            <h1 class="display-4 fw-bold">Joseph Brucato</h1>
-            <p class="lead">Aspiring Data Analyst | Tech Enthusiast</p>
+            <img src="images/placeholder-image.jpg" alt="Your Personal Image" class="rounded-circle shadow-lg mb-4" style="max-width: 150px;">
+            <h1 class="display-4 fw-bold text-cream">Joseph Brucato</h1>
+            <p class="lead text-light">Aspiring Data Analyst | Tech Enthusiast</p>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-5 bg-light">
+    <section id="about" class="py-5">
         <div class="container">
-            <h2 class="text-crimson text-center fw-bold mb-4">About Me</h2>
-            <p class="text-center">[Add a brief description about yourself, your career goals, and your skills. For example: "I am passionate about data analytics, machine learning, and technology. My goal is to leverage data to drive impactful decisions in the healthcare industry."]</p>
+            <h2 class="text-center text-crimson fw-bold mb-4">About Me</h2>
+            <p class="text-center text-light">[Add a brief description about yourself, your career goals, and your skills. For example: "I am passionate about data analytics, machine learning, and technology. My goal is to leverage data to drive impactful decisions in the healthcare industry."]</p>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-5 bg-cream">
+    <section id="projects" class="py-5 bg-dark-secondary">
         <div class="container">
-            <h2 class="text-crimson text-center fw-bold mb-4">Projects</h2>
-            <div class="row">
+            <h2 class="text-center text-crimson fw-bold mb-4">Projects</h2>
+            <div class="row g-4">
                 <!-- Project 1 -->
-                <div class="col-md-6 mb-4">
-                    <div class="card shadow-sm">
+                <div class="col-md-6">
+                    <div class="card bg-dark text-light border-0 rounded shadow-sm">
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">[Project 1 Title]</h5>
+                            <h5 class="card-title fw-bold text-cream">[Project 1 Title]</h5>
                             <p class="card-text">[Description of your first project. Explain what it does, the tech stack used, and any achievements.]</p>
                             <a href="#" class="btn btn-crimson" target="_blank">View Project</a>
                         </div>
                     </div>
                 </div>
                 <!-- Project 2 -->
-                <div class="col-md-6 mb-4">
-                    <div class="card shadow-sm">
+                <div class="col-md-6">
+                    <div class="card bg-dark text-light border-0 rounded shadow-sm">
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">[Project 2 Title]</h5>
+                            <h5 class="card-title fw-bold text-cream">[Project 2 Title]</h5>
                             <p class="card-text">[Description of your second project. Highlight how you built it and its significance.]</p>
                             <a href="#" class="btn btn-crimson" target="_blank">View Project</a>
                         </div>
@@ -82,18 +82,17 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-5 bg-light">
+    <section id="contact" class="py-5">
         <div class="container">
-            <h2 class="text-crimson text-center fw-bold mb-4">Contact</h2>
-            <p class="text-center">Email: <a href="mailto:jjbrucat@iu.edu">jjbrucat@iu.edu</a></p>
-            <p class="text-center">GitHub: <a href="https://github.com/joebrucato" target="_blank">github.com/joebrucato</a></p>
-            <p class="text-center">LinkedIn: <a href="https://linkedin.com/in/joebrucato" target="_blank">linkedin.com/in/joebrucato</a></p>
+            <h2 class="text-center text-crimson fw-bold mb-4">Contact</h2>
+            <p class="text-center">Email: <a href="mailto:jjbrucat@iu.edu" class="text-cream">jjbrucat@iu.edu</a></p>
+            <p class="text-center">LinkedIn: <a href="https://linkedin.com/in/joebrucato" class="text-cream" target="_blank">linkedin.com/in/joebrucato</a></p>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="text-center text-light py-3 bg-crimson">
-        <p>© 2024 Joseph Brucato. All Rights Reserved</p>
+    <footer class="text-center py-3 bg-crimson">
+        <p class="mb-0 text-light">© 2024 Joseph Brucato. All Rights Reserved</p>
     </footer>
 
     <!-- Bootstrap JS and Popper.js -->
