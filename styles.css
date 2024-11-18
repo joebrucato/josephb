@@ -70,8 +70,18 @@ h1, h2, h3 {
 .outline-heading {
     color: #cc0000;
     text-shadow: 
-      -1px -1px 0 black,  
-       1px -1px 0 black,
-      -1px  1px 0 black,
-       1px  1px 0 black;
+      -1px -1px 0 #fff,  
+       1px -1px 0 #fff,
+      -1px  1px 0 #fff,
+       1px  1px 0 #fff;
+}
+
+.title-heading {
+    color: #fff;
+    text-shadow: 
+      -1px -1px 0 #121212,  
+       1px -1px 0 #121212,
+      -1px  1px 0 #121212,
+       1px  1px 0 #121212;
+
 }
