@@ -69,5 +69,9 @@ h1, h2, h3 {
 /* Headings Outline */
 .outline-heading {
     color: #cc0000;
-    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    text-shadow: 
+      -1px -1px 0 black,  
+       1px -1px 0 black,
+      -1px  1px 0 black,
+       1px  1px 0 black;
 }
