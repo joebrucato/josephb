@@ -1,87 +1,163 @@
 /* General Styles */
 body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
-    background-color: #121212;
-    color: #f5f5f5;
-}
-
-h1, h2, h3 {
-    font-family: 'Inter', sans-serif;
-}
-
-/* Colors */
-.bg-dark-secondary {
-    background-color: #1e1e1e;
-}
-
-.text-crimson {
-    color: #990000;
-}
-
-.bg-crimson {
-    background-color: #990000;
-}
-
-/* Navbar */
-.nav-link {
-    color: #f5f5f5;
-    transition: color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.nav-link:hover {
-    color: #f5f5f5;
-    box-shadow: 0 0 5px 2px #fff;
-    border: 1px solid #fff;
-    padding: 2px 6px;
-}
-
-/* Hover Link */
-.hover-link {
-    position: relative;
-}
-
-/* Buttons */
-.btn-crimson {
-    background-color: #990000;
-    color: #fff;
-    border-radius: 25px;
-    padding: 10px 20px;
-    transition: all 0.3s ease;
-}
-
-.btn-crimson:hover {
-    background-color: #cc0000;
-}
-
-/* Card */
-.card {
-    border-radius: 15px;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #2c3e50;
+  }
+  
+  /* Header */
+  header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* About Section */
+  .about-section {
+    background: #ecf0f1;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  /* Projects Section */
+  .projects-section {
+    padding: 50px 0;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
     overflow: hidden;
-    border: 1px solid #333;
-}
-
-.card:hover {
-    transform: scale(1.02);
-    transition: transform 0.3s ease;
-}
-
-/* Headings Outline */
-.outline-heading {
-    color: #cc0000;
-    text-shadow: 
-      -1px -1px 0 #fff,  
-       1px -1px 0 #fff,
-      -1px  1px 0 #fff,
-       1px  1px 0 #fff;
-}
-
-.title-heading {
-    color: #fff;
-    text-shadow: 
-      -1px -1px 0 #121212,  
-       1px -1px 0 #121212,
-      -1px  1px 0 #121212,
-       1px  1px 0 #121212;
-
-}
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-details {
+    padding: 20px;
+  }
+  
+  .project-details h3 {
+    margin-top: 0;
+  }
+  
+  .tools-used {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .tools-used li {
+    background: #2ecc71;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .project-links {
+    margin-top: 15px;
+  }
+  
+  .project-links .btn {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #3498db;
+    color: white;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  .project-links .btn:hover {
+    background: #2980b9;
+  }
+  
+  /* Footer */
+  .footer-section {
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .footer-section form {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .footer-section input, .footer-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .footer-section .btn.submit {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .footer-section .btn.submit:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .project-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
