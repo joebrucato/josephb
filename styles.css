@@ -20,7 +20,7 @@ a:hover {
 
 /* Header with Background Image */
 .header {
-    background: url('portfolio-website/assets/header-placeholder.jpg') no-repeat center center / cover;
+    background: url('downloads/portfolio-website/assets/header-placeholder.jpg') no-repeat center center / cover;
     padding: 5rem 1rem;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
